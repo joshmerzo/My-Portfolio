@@ -1,22 +1,21 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body Styles */
+
 body {
     width: 100%;
     max-width: 1400px;
     margin: auto;
     min-height: 100vh;
     background: #191919;
-    font-family: 'Lora', serif; /* Primary font */
-    color: #eaeaea; /* Default text color */
+    font-family: 'Lora', serif; 
+    color: #eaeaea; 
 }
 
-/* Navbar Styles */
 .navbar {
     width: 100%;
     position: fixed;
@@ -44,14 +43,14 @@ body {
     line-height: 80px;
     transition: 0.5s;
     font-size: 20px;
-    font-family: 'Roboto', sans-serif; /* Secondary font for navigation */
+    font-family: 'Roboto', sans-serif; 
 }
 
 .link a:hover, .link.active a {
     opacity: 1;
 }
 
-/* Home Section */
+
 .home-section {
     width: 100%;
     height: 100vh;
@@ -70,7 +69,7 @@ body {
     font-size: 120px;
     text-transform: capitalize;
     font-weight: 300;
-    font-family: 'Playfair Display', serif; /* Hero section font */
+    font-family: 'Playfair Display', serif;
     z-index: 10;
 }   
 
@@ -84,14 +83,13 @@ body {
     opacity: 0.2;
 }
 
-/* Section Activation */
+
 .home-section.active, .project-section.active, .about-section.active, .contact-section.active {
     position: relative;
     opacity: 1;
     z-index: 8;
 }
 
-/* Project Section */
 .project-section {
     width: 100%;
     min-height: 100vh;
@@ -118,8 +116,8 @@ hr {
     border: 0;
     height: 2px;
     background: #f8f9fa;
-    margin: 50px 0; /* Space above and below */
-    width: 80%; /* Width of the hr */
+    margin: 50px 0; 
+    width: 80%; 
     margin-left: auto;
     margin-right: auto;
 }
@@ -195,7 +193,6 @@ hr {
     opacity: 1;
 }
 
-/* About Section */
 .about-section {
     width: 100%;
     min-height: 100vh;
@@ -226,7 +223,7 @@ hr {
     text-align: justify;
     max-width: 800px;
     margin: 0 auto;
-    font-family: 'Lora', serif; /* Body text font */
+    font-family: 'Lora', serif; 
 }
 
 .about-img {
@@ -323,7 +320,6 @@ hr {
     margin: 20px auto 0;
 }
 
-/* Skill Level Color Coding */
 .skill-card:nth-child(1) .skill-level {
     background: #ff4f4f;
     border: 4px solid #ff4f4f;
@@ -342,17 +338,15 @@ hr {
 .skill-card:nth-child(4) .skill-level {
     background: #52ff4f;
     border: 4px solid #52ff4f;
-    margin-bottom: 50px;
 }
 
 .skill-card:nth-child(5) .skill-level {
     background: #4fdfff;
     border: 4px solid #4fdfff;
-    margin-bottom: 50px;
 }
 
 .footer{
-    color:#eaeaea
+    color:#eaeaea;
     position: fixed;
     display: table;
     text-align: center;
@@ -378,11 +372,11 @@ hr {
     transform: translateY(-5px);
 }
 
-.blog-section {
+.work-experience-section {
     position: relative;
     margin: 100px 0;
-    opacity: 1; /* Ensure visibility */
-    z-index: 1; /* Ensure it’s above other elements if needed */
+    opacity: 1; 
+    z-index: 1;
 }   
 
 .container {
@@ -396,15 +390,15 @@ hr {
     width: 100%;
     padding: 20px;
     text-align: center;
-    background-color: #fff;  /* White background */
-    margin-top: 50px;  /* Add some space from previous sections */
-    color: black;  /* Set text color to black */
+    background-color: #fff; 
+    margin-top: 50px;  
+    color: black; 
 }
 
 .contact-section h2 {
     font-size: 32px;
     margin-bottom: 20px;
-    color: black;  /* Ensure heading text is black */
+    color: black;  
 }
 
 .contact-section form {
@@ -421,25 +415,25 @@ hr {
 .contact-section .social-links h3 {
     margin-bottom: 10px;
     font-size: 20px;
-    color: black;  /* Set the color of the 'Follow Me' heading to black */
+    color: black;  
 }
 
 .social-link img {
-    width: 40px;  /* Set a standard size for the icons */
+    width: 40px;  
     height: 40px;
     transition: transform 0.3s ease;
 }
 
 .social-link img:hover {
-    transform: scale(1.1);  /* Slight zoom effect on hover */
+    transform: scale(1.1);  
 }
 
-/* Form Styling */
+
 form label {
     display: block;
     margin: 10px 0 5px;
     font-weight: bold;
-    color: black;  /* Set label text color to black */
+    color: black; 
 }
 
 form input, form textarea {
@@ -448,7 +442,7 @@ form input, form textarea {
     margin-bottom: 15px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    color: black;  /* Set text inside input/textarea to black */
+    color: black;  
 }
 
 form button {
@@ -463,4 +457,3 @@ form button {
 form button:hover {
     background-color: #0056b3;
 }
-
